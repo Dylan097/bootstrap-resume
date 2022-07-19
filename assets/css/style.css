@@ -27,7 +27,7 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f4f4f4;
+    background-color: #e67e22
 }
 
 .bg-color-work-history {
@@ -35,7 +35,7 @@
 }
 
 .bg-color-contact {
-    background-color: #ffffff;
+    background-color: #3498db;
 }
 
 /* ---------------------------------------Special paddings/margins/text */
@@ -237,10 +237,15 @@ footer {
 
 /* ---------------------------------------Personal Info */
 
+.personal-info-heading {
+    color: #fafafa;
+}
+
 .personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
+    color: #fafafa;
 }
 
 .personal-info-item .key,
@@ -271,6 +276,11 @@ footer {
 }
 
 /* ---------------------------------------Skills */
+
+.my-skills-icon {
+    font-size: 26px;
+    color: #9b59b6;
+}
 
 .progress {
     position: relative;
@@ -346,6 +356,11 @@ footer {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
+    color: #fafafa;
+}
+
+.bg-color-contact div h5 {
+    color: #fafafa;
 }
 
 .center-form {
