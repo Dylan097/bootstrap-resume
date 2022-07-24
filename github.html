@@ -1,16 +1,20 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
         type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/github-information.js"></script>
     <title>Dylan Aldridge</title>
 </head>
 
@@ -61,110 +65,18 @@
             </div>
     </header>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 bg-color-personal-info section-column">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="section-heading personal-info-heading uppercase">Personal Info</h3>
-                    </div>
+        <div class="row bg-color-git-hub">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
+
+                <div class="center-form">
+                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
+
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Name:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            Dylan Aldridge
-                        </p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Address
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            5 Collyer Road, London Colney, Hertfordshire, UK
-                        </p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Phone:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            +44 7496 457841
-                        </p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Email:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            DylanAldridge7@gmail.com
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 bg-color-3-reasons section-column">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="section-heading uppercase">About me</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">What do I do?</h4>
-                                <p>I'm a skilled Full Stack Developer with a large amount of experience in the retail
-                                    industry, and the gaming community. My gaming experience is bought with me in each
-                                    project I have completed.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
-                                <p>I follow the core principle of "Do I enjoy it? Is it something I'd play/ use?", and
-                                    that keeps my web apps and games as good as I can make them!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
-                                <p>I put a lot of thought and effort into the projects that I create, and I'm always
-                                    looking at how I might be able to make it better, with shorter code to make it run
-                                    quicker, or more useful features to make it easier to understand or use. I also like
-                                    to work with a team, and help my teammates solve any problems they might be stuck
-                                    on.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
 
