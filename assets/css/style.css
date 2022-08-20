@@ -58,6 +58,11 @@
     background-color: #1c4a6c;
 }
 
+#gh-user-data h2,
+.gh-content p {
+    color: #fafafa;
+}
+
 /* ---------------------------------------Special paddings/margins/text */
 
 h1,
