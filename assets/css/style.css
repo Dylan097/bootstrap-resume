@@ -59,7 +59,8 @@
 }
 
 #gh-user-data h2,
-.gh-content p {
+.gh-content p,
+.repo-list {
     color: #fafafa;
 }
 
